@@ -334,3 +334,97 @@ opacity: 1;
     visibility: visible;
     font-size: 14px;
 }
+footer{
+    background-color: #111;
+    height: auto;
+    width: 100vw;
+    font-family: 'Poppins', "Open Sans",sans-serif;
+    padding-top: 40px;
+    color: #fff;
+
+}
+.footercont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footercont h3{
+   font-size: 1.8rem;
+   font-weight: 400;
+   text-transform: capitalize;
+   line-height: 3rem;
+}
+.footercont p{
+    text-align: justify;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+.contatoft{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 1rem 0 3rem 0;
+}
+.contatoft li{
+    margin: 0 10px;
+}
+.contatoft a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.contatoft a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.contatoft a:hover i{
+    color:  aqua;
+}
+.footer-bottom{
+    background:#000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight:200;
+}
+
+
+/*teste portifolo*/
+.h2port a{
+   
+    text-decoration: none;
+    color: #f1f1f1;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #f1f1f1;
+    min-width: 4rem;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+
+}
+.h2port a:hover{
+    background-color: #af3f6e;
+}
+       .h2port h2 a{
+            color: #f1f1f1;
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Poppins',sans-serif;
+            font-size: 25px;
+            text-transform: uppercase;
+            letter-spacing: 2px;  
+        }
