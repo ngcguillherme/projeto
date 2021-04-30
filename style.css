@@ -169,3 +169,168 @@ top: 48px;
 visibility: visible;
 opacity: 1;
 }
+
+/*portfolio*/
+
+.contmain{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+.contport{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+}
+.port0{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin: 10rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.port2{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin: 10rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.port3{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin: 10rem 0 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* background-color: rgb(255, 255, 255);*/
+    background-image: url(./img/3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(0.5);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+
+.porttext{
+    margin-top: 2cm;
+    width: 40%;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+}
+.porttext h2 a{
+    color: #f1f1f1;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+.port-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.port-wrapper::before{
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    display: block;
+    opacity: 0;
+    transition: 0.5 ease-in-out;
+
+}
+.port-wrapper h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+}
+.port-wrapper p {
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+
+}
+
+/*info 1*/
+.port0:hover{
+    filter: unset;
+}
+.port0:hover > .port-wrapper::before{
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+.port0:hover > .port-wrapper p{
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+/*info 2*/
+.port2:hover{
+    filter: unset;
+}
+.port2:hover > .port-wrapper::before{
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+.port2:hover > .port-wrapper p{
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+/*info 3*/
+.port3:hover{
+    filter: unset;
+}
+.port3:hover > .port-wrapper::before{
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+}
+.port3:hover > .port-wrapper p{
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
