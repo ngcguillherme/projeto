@@ -7,6 +7,222 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+
+    <style>
+        body{
+        margin: 0;
+        padding: 0;
+        font-family:'Poppins',sans-serif;
+        color: #f1f1f1;
+        background-image: url(./img/880175.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+            }
+            h1{
+        font-family: 'Poppins',sans-serif;
+        font-size: 50px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+            }
+            .h2port{
+      margin-top: 1rem; 
+      display: flex; 
+    }
+    
+    .h2port a{
+       
+        text-decoration: none;
+        color: #f1f1f1;
+        padding: 1rem 4rem;
+        border: 1px solid #f1f1f1;
+        min-width: 4rem;
+        align-items: center;
+        justify-content: center;
+        transition: .5s ease-in-out;
+    
+    }
+    a:hover{
+        background-color: #af3f6e;
+    }
+            h2 a{
+                color: #f1f1f1;
+                text-decoration: none;
+                display: inline-block;
+                font-family: 'Poppins',sans-serif;
+                font-size: 25px;
+                text-transform: uppercase;
+                letter-spacing: 2px;  
+            }
+            p{
+        justify-items: center;
+        font-family: 'Poppins',sans-serif;
+        font-size: 20px;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+            }
+            .contmain{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 3rem 0;
+    }
+    .contport{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+    }
+    .port0{
+        width: 350px;
+        height: 350px;
+        margin: 10rem 0 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./img/port1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+    
+    }
+    .port2{
+        width: 350px;
+        height: 350px;
+        margin: 10rem 0 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(./img/port2.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+    
+    }
+    .port3{
+        width: 350px;
+        height: 350px;
+        margin: 10rem 0 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       /* background-color: rgb(255, 255, 255);*/
+        background-image: url(./img/port3.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color:rgb(255, 255, 255);
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+    
+    }
+    
+    .porttext{
+        margin-top: 2cm;
+        width: 40%;
+        text-align: justify;
+        letter-spacing: 1px;
+        color: rgb(255, 255, 255);
+    }
+    .porttext h2 a{
+        color: #f1f1f1;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+    }
+    .port-wrapper{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    
+    }
+    .port-wrapper::before{
+        content: '';
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        display: block;
+        opacity: 0;
+        transition: 0.5 ease-in-out;
+    
+    }
+    .port-wrapper h2{
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: 0;
+        transition: 0.5s ease-in-out;
+    }
+    .port-wrapper p {
+        font-size: 0;
+        visibility: visible;
+        opacity: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: 0.5s ease-in-out;
+    
+    }
+    
+    /*info 1*/
+    .port0:hover{
+        filter: unset;
+    }
+    .port0:hover > .port-wrapper::before{
+        height: 200px;
+        width: 200px;
+        opacity: 1;
+    }
+    .port0:hover > .port-wrapper p{
+        opacity: 1;
+        visibility: visible;
+        font-size: 14px;
+    }
+    /*info 2*/
+    .port2:hover{
+        filter: unset;
+    }
+    .port2:hover > .port-wrapper::before{
+        height: 200px;
+        width: 200px;
+        opacity: 1;
+    }
+    .port2:hover > .port-wrapper p{
+        opacity: 1;
+        visibility: visible;
+        font-size: 14px;
+    }
+    /*info 3*/
+    .port3:hover{
+        filter: unset;
+    }
+    .port3:hover > .port-wrapper::before{
+        height: 200px;
+        width: 200px;
+        opacity: 1;
+    }
+    .port3:hover > .port-wrapper p{
+        opacity: 1;
+        visibility: visible;
+        font-size: 14px;
+    }
+    h3 p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', ;
+        font-size: 12px;
+    }
+    
+        </style>
 </head>
 <body>
  
